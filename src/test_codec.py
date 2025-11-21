@@ -14,3 +14,11 @@ if __name__ == "__main__":
     test_decode()
     test_mirror()
     print("All tests passed.")
+def test_glyph_mode():
+    text = "mirror-seed-33"
+    encoded = encode(text, mode="glyph")
+    assert isinstance(encoded, str)
+    assert all(char in GLYPH_MAP.values() or char in GLYPH_MAP for char in encoded)
+
+    decoded = decode(encoded, mode="glyph")
+    assert decoded == text
