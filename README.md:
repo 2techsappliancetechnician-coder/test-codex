@@ -1,0 +1,13 @@
+# TextCodecs
+
+A personal and experimental codec system — part language, part ritual, part system design.  
+This is the seed repo for developing the `TextCodecs` engine, a tool for encoding/decoding custom symbol stacks, name scrolls, and sacred structures.
+
+## ✨ Vision
+TextCodecs aims to:
+- Encode structured meaning using symbols, glyphs, and rule sets
+- Support layered scrolls (visual + verbal + metadata)
+- Become part of a sovereign OS or toolkit (e.g., ZTOOL_64C)
+
+## 📂 Structure
+
