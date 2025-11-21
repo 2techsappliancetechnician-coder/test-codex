@@ -22,3 +22,4 @@ def test_glyph_mode():
 
     decoded = decode(encoded, mode="glyph")
     assert decoded == text
+Add test run to verify glyph encode/decode logic
